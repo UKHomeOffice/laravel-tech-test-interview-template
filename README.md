@@ -41,6 +41,6 @@ The entity relationship diagram is shown below:
 
 The schema can be found in the `database - migrations` folder. 
 
-The seed data can be found in the `database - seeders` folder.
+The seed data can be found in the `database - seeders` folder. The database can be reseeded by running the tests or `php artisan migrate:fresh --seed`.
 
 This project is configured to use a MySQL database. If using `DBngin` to run MySQL, the default username is `root` with no password, as per the `.env.example` file. The default port is 3306.
