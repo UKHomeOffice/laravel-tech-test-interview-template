@@ -22,7 +22,7 @@ See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for 
 3. Rename `.env.example` to `.env` and modify any connection / port / URL details in the file to match your setup.
 4. Generate an app key using the command `php artisan key:generate`
 5. Run `composer install` to install vendor packages.
-6. Run `php artisan migrate:fresh —seed` to create the database tables and seed the database.
+6. Run `php artisan migrate` and select `Yes` when prompted to create the bookstore database. 
 7. Run `php artisan test` and ensure the PHPUnit tests run successfully.
 8. Manually test the `/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
 9. Take some time to familiarise yourself with the existing solution and consider how you'd incorporate new features and test your solution.
