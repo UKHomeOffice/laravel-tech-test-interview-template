@@ -10,11 +10,11 @@ More than just arriving at the correct solution, we're interested in understandi
 Complete the steps below **before** the interview. This will ensure that you can focus on coding rather than setting up the environment.
 
 1. Set up a development environment on your local machine. You will need:
-a. an IDE or code editor e.g. `VS Code`
-b. `Laravel 10+` and `PHP 8.3` with `Composer` and `PHPUnit`
-c. a web server such as `nginx` or `apache`
-d. a `MySQL` database
-e. `Postman` or `cURL`
+    a. an IDE or code editor e.g. `VS Code`
+    b. `Laravel 10+` and `PHP 8.3` with `Composer` and `PHPUnit`
+    c. a web server such as `nginx` or `apache`
+    d. a `MySQL` database
+    e. `Postman` or `cURL`
 
 See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for details of how you can use [Laravel Herd](https://herd.laravel.com/) (MacOS) or [Homestead](https://laravel.com/docs/10.x/homestead) along with [DBngin](https://dbngin.com/) to get started quickly.  
 
