@@ -8,7 +8,7 @@ use Tests\TestCase;
 class UserApiTest extends TestCase
 {
     // The $seed variable and trait will refresh the database
-    // and reseed before tests each run.
+    // and reseed before tests run.
     protected $seed = true;
     use RefreshDatabase;
 
