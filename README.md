@@ -10,11 +10,11 @@ More than just arriving at the correct solution, we're interested in understandi
 Complete the steps below **before** the interview. This will ensure that you can focus on coding rather than setting up the environment.
 
 1. Set up a development environment on your local machine. You will need:
-    a. an IDE or code editor e.g. `VS Code`
-    b. `Laravel 10+` and `PHP 8.3` with `Composer` and `PHPUnit`
-    c. a web server such as `nginx` or `apache`
-    d. a `MySQL` database
-    e. `Postman` or `cURL`
+    - an IDE or code editor e.g. `VS Code`
+    - `Laravel 10+` and `PHP 8.3` with `Composer` and `PHPUnit`
+    - a web server such as `nginx` or `apache`
+    - a `MySQL` database
+    - `Postman` or `cURL`
 
 See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for details of how you can use [Laravel Herd](https://herd.laravel.com/) (MacOS) or [Homestead](https://laravel.com/docs/10.x/homestead) along with [DBngin](https://dbngin.com/) to get started quickly.  
 
@@ -23,8 +23,8 @@ See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for 
 4. Generate an app key using the command `php artisan key:generate`
 5. Run `composer install` to install vendor packages.
 6. Run `php artisan migrate:fresh —seed` to create the database tables and seed the database.
-6. Run `php artisan test` and ensure the PHPUnit tests run successfully.
-7. Manually test the `/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
+7. Run `php artisan test` and ensure the PHPUnit tests run successfully.
+8. Manually test the `/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
 9. Take some time to familiarise yourself with the existing solution and consider how you'd incorporate new features and test your solution.
 
 ## Technologies
