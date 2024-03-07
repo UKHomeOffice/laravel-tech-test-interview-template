@@ -15,11 +15,11 @@ Complete the steps below **before** the interview. This will ensure that you can
     - a web server such as `nginx` or `apache`
     - `Postman` or `cURL`
 
-See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for details of how you can use [Laravel Herd](https://herd.laravel.com/) (MacOS) or [Homestead](https://laravel.com/docs/10.x/homestead) to get started quickly.  
+See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for details of how you can use [Laravel Herd](https://herd.laravel.com/) (MacOS), [Homestead](https://laravel.com/docs/10.x/homestead) or [Laragon](https://laragon.org/index.html) to get started quickly.  
 
 2. Clone this project to your local machine.
 3. Rename `.env.example` to `.env` and modify any connection / port / URL details in the file to match your setup.
-4. Navigate to the `database` directory and create an empty file called `database.sqlite`. Your SQLite database will be contained within this single file.
+4. Create an empty file within the `database` folder called `database.sqlite`. Your SQLite database will be contained within this single file.
 5. Generate an app key using the command `php artisan key:generate`
 6. Ensure your PHP process has read-write permissions to the the folders `bootstrap/cache`, `storage/logs` and `storage/framework/*`
 7. Run `composer install` to install vendor packages.
