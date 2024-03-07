@@ -7,8 +7,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Book extends Model
 {
-    // Book will always contain a 'user' object though it will
-    // be null by default.
+    /**
+     * User (belongs to book).
+     * A Book will always contain a 'user' object though it will
+     * be null by default.
+     * @return BelongsTo
+     */
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class)->withDefault();

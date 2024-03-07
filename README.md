@@ -21,11 +21,12 @@ See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for 
 2. Clone this project to your local machine.
 3. Rename `.env.example` to `.env` and modify any connection / port / URL details in the file to match your setup.
 4. Generate an app key using the command `php artisan key:generate`
-5. Run `composer install` to install vendor packages.
-6. Run `php artisan migrate` and select `Yes` when prompted to create the bookstore database. 
-7. Run `php artisan test` and ensure the PHPUnit tests run successfully.
-8. Manually test the `/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
-9. Take some time to familiarise yourself with the existing solution and consider how you'd incorporate new features and test your solution.
+5. Ensure your PHP process has read-write permissions to the the folders `bootstrap/cache`, `storage/logs` and `storage/framework/*`
+6. Run `composer install` to install vendor packages.
+7. Run `php artisan migrate` and, if prompted, select `Yes` to create the bookstore database. 
+8. Run `php artisan test` and ensure the PHPUnit tests run successfully.
+9. Manually test the `/api/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
+10. Take some time to familiarise yourself with the existing solution and consider how you'd incorporate new features and test your solution.
 
 ## Technologies
 

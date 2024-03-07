@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     protected $user;
+
+    /**
+     * Constructor
+     * @param User $user
+     */
     public function __construct(User $user)
     {
         $this->user = $user;
@@ -16,6 +21,7 @@ class UserController extends Controller
 
     /**
      * GET (all users)
+     * @return JsonResponse
      */
     public function index(): JsonResponse
     {
@@ -25,6 +31,9 @@ class UserController extends Controller
 
     /**
      * POST
+     * @param Request $request
+     *
+     * @return JsonResponse
      */
     public function store(Request $request): JsonResponse
     {
@@ -33,7 +42,10 @@ class UserController extends Controller
     }
 
     /**
-     * GET (specific user)
+     * GET (single user)
+     * @param string $id
+     *
+     * @return JsonResponse
      */
     public function show(string $id): JsonResponse
     {
@@ -43,6 +55,10 @@ class UserController extends Controller
 
     /**
      * PUT
+     * @param Request $request
+     * @param string $id
+     *
+     * @return JsonResponse
      */
     public function update(Request $request, string $id): JsonResponse
     {
@@ -52,6 +68,9 @@ class UserController extends Controller
 
     /**
      * DELETE
+     * @param string $id
+     *
+     * @return JsonResponse
      */
     public function destroy(string $id): JsonResponse
     {
