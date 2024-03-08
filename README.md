@@ -11,7 +11,7 @@ Complete the steps below **before** the interview. This will ensure that you can
 
 1. Set up a development environment on your local machine. You will need:
     - an IDE or code editor e.g. `VS Code`
-    - `Laravel 10+` and `PHP 8.3` with `Composer` and `PHPUnit`
+    - `Laravel 10+` and `PHP 8.3` (with [these extensions](https://laravel.com/docs/10.x/deployment#server-requirements) and pdo_sqlite) with `Composer` (latest version) and `PHPUnit`
     - a web server such as `nginx` or `apache`
     - `Postman` or `cURL`
 
@@ -20,9 +20,9 @@ See the [Laravel documentation](https://laravel.com/docs/10.x/installation) for 
 2. Clone this project to your local machine.
 3. Rename `.env.example` to `.env` and modify any connection / port / URL details in the file to match your setup.
 4. Create an empty file within the `database` folder called `database.sqlite`. Your SQLite database will be contained within this single file.
-5. Generate an app key using the command `php artisan key:generate`
-6. Ensure your PHP process has read-write permissions to the the folders `bootstrap/cache`, `storage/logs` and `storage/framework/*`
-7. Run `composer install` to install vendor packages.
+5. Ensure your PHP process has read-write permissions to the the folders `bootstrap/cache`, `storage/logs` and `storage/framework/*`
+6. Run `composer install` to install vendor packages.
+7. Generate an app key using the command `php artisan key:generate`
 8. Run `php artisan migrate`. If prompted, select `Yes` to create the bookstore database. 
 9. Run `php artisan test` and ensure the PHPUnit tests run successfully.
 10. Manually test the `/api/users` endpoint using `Postman` or `cURL` to confirm functionality is working.
