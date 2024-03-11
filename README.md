@@ -24,12 +24,12 @@ Complete the steps below **before** the interview. This will ensure that you can
 ## <div id="dev-env">Development environment</div>
 
 You will need:
-    - an IDE or code editor e.g. [VS Code](https://code.visualstudio.com/)
-    - [Laravel 10+](https://laravel.com/docs/10.x/installation) 
-    - [PHP 8.3](https://www.php.net/downloads.php) (with [these extensions](https://laravel.com/docs/10.x/deployment#server-requirements) `pdo_sqlite` and `sqlite3`) 
-    - [Composer](https://getcomposer.org/) (latest version) and [PHPUnit](https://phpunit.de/index.html)
-    - a web server such as `apache`, `nginx` or even the [PHP development server](https://www.php.net/manual/en/features.commandline.webserver.php)
-    - `Postman` or `cURL`
+- an IDE or code editor e.g. [VS Code](https://code.visualstudio.com/)
+- [Laravel 10+](https://laravel.com/docs/10.x/installation) 
+- [PHP 8.3](https://www.php.net/downloads.php) (with [these extensions](https://laravel.com/docs/10.x/deployment#server-requirements) `pdo_sqlite` and `sqlite3`) 
+- [Composer](https://getcomposer.org/) (latest version) and [PHPUnit](https://phpunit.de/index.html)
+- a web server such as `apache`, `nginx` or even the [PHP development server](https://www.php.net/manual/en/features.commandline.webserver.php)
+- `Postman` or `cURL`
 
 Read the [Laravel documentation](https://laravel.com/docs/10.x/installation) for details of how you can use [Laravel Herd](https://herd.laravel.com/) (MacOS), [Homestead](https://laravel.com/docs/10.x/homestead) or [Laragon](https://laragon.org/index.html) (Windows) to get started. If using Laragon, use the Full version (Apache), update PHP and check the correct PHP extensions are installed as above.
 
